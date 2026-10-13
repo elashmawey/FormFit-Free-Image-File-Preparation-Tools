@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FormFit — Free Image &amp; File Preparation Tools</title>
+    <meta name="description" content="Get your image ready to upload. Compress images to 20KB, 50KB, 100KB, resize to exact dimensions, convert formats, and prepare signatures. Free, fast, and 100% private in your browser." />
+    
+    <!-- PWA & Mobile Web App Meta -->
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="FormFit" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="FormFit — Free Image &amp; File Preparation Tools" />
+    <meta property="og:description" content="Compress, resize, and convert images to meet application requirements in seconds. Free, private, and local browser processing." />
+    <meta property="og:site_name" content="FormFit" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FormFit — Free Image &amp; File Preparation Tools" />
+    <meta name="twitter:description" content="Compress, resize, and convert images to meet application requirements in seconds. Free, private, and local browser processing." />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    
+    <!-- Structured Data (Schema.org WebApplication) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "FormFit",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires JavaScript. Requires HTML5 Canvas.",
+      "description": "Free, browser-based image preparation utility to compress images to exact file sizes, resize dimensions, convert formats, and prepare signatures.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Smart natural language upload requirements parser",
+        "Batch image compression and ZIP download",
+        "Iterative client-side image compression to target KB size",
+        "Exact pixel and aspect-ratio image resizing",
+        "Image format conversion between JPEG, PNG, and WebP",
+        "Scanned signature cropper and preparation tool",
+        "Shareable result cards and preset configuration links",
+        "100% private local browser processing with zero server uploads"
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 min-h-screen antialiased selection:bg-blue-600 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
